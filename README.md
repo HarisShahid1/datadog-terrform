@@ -11,6 +11,7 @@ This project pulls the Datadog API and APP keys from AWS Secrets Manager. Store 
   "datadog_api_key": "your_actual_api_key",
   "datadog_app_key": "your_actual_app_key"
 }
+```
 
 ## Features
 
@@ -29,3 +30,4 @@ module "cpu_monitor" {
   monitor_tags              = ["env:staging", "team:backend"]
   alert_message             = "Staging CPU usage exceeds threshold. Investigate immediately."
 }
+```
