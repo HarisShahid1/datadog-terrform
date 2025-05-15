@@ -1,0 +1,6 @@
+aws_region                = "us-east-1"
+secretsmanager_secret_id = "datadog-api-keys"
+
+cpu_threshold  = 85
+monitor_tags   = ["env:staging", "team:backend"]
+alert_message  = "Staging CPU usage exceeds threshold. Investigate immediately."
